@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <nav class="cabecalho">
+            <a class="logotipo" href="index.html">
+                <img class="logotipo__foto" src="assets/img/PHS INFORMÁTICA - Logo.png"> 
+            </a>
+
+            <div class="menu__atalhos">
+                <a class="menu__atalhos__links" href="index.html">Sobre mim</a>
+                <a class="menu__atalhos__links" href="skills.html">Skills</a>
+                <a class="menu__atalhos__links" href="hobbies.html">Hobbies</a>
+                <a class="menu__atalhos__links" href="formação.html">Formação</a>
+                <a class="menu__atalhos__links" href="projetos.html">Projetos</a>
+                <a class="menu__atalhos__links" href="contato.html">Contato</a>
+            </div>
+        </nav>   
+    </header> 
+
+    <main>
+        <h1 class="formacao">Formação Acadêmica</h1>
+        <nav class="escola">
+
+            <a class="escola_logo" href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank">
+                <img class="logo__insitut" src="./assets/img/Logo ONE.png">
+                <h2 class="titulo_formacao">Desenvolvedor Web Front-end</h2>
+                <h3 class="periodo">Cursando</h3>
+
+            </a>
+
+            <a class="escola_logo" href="https://univesp.br/" target="_blank">
+                <img class="logo__insitut" src="assets/img/Univesp.png">
+                <h2 class="titulo_formacao">Tecnologia da Informação</h2>
+                <h3 class="periodo">Cursando</h3>
+
+            </a>
+            
+            <a class="escola_logo" href="https://fatecpp.edu.br//" target="_blank">
+                <img class="logo__insitut" src="./assets/img/Fatec.jpg">
+                <h2 class="titulo_formacao">Gestão Empresarial</h2>
+                <h3 class="periodo">2015 - 2017</h3>
+
+            </a>
+
+        </nav>
+    </main>
+    
+    <footer>
+        <nav class="links__rodape">
+            <a class="links__links" href="https://www.linkedin.com/in/paulo-hds/" target="_blank">
+                <img src="assets/img/linkedin.png">
+            </a>
+           
+            <a class="links__links" href="https://www.instagram.com/phsinformatica.tec" target="_blank">
+                <img src="assets/img/instagram.png">
+            </a>
+            <a class="links__links" href="https://github.com/PHS-informatica" target="_blank">
+                <img src="assets/img/github.png">
+            </a>
+            <a class="links__links" href="https://paulohsantosfoto.wixsite.com/paulohsantosfoto" target="_blank">
+                <img src="assets/img/internet.png">
+            </a>
+        </nav>
+        <p class="developer">Developed by PHS-Informática ®</p>
+    </footer>
+    
+</body>
+</html>
