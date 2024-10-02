@@ -1,3 +1,286 @@
+/* CABECALHO */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
-    background-color: aqua;
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #bec3bc;
+    
+  
+}
+
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color:#bec3bc;
+    text-decoration: none;
+   
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+.logotipo{
+    cursor: pointer;
+}
+.logotipo__foto{
+   margin-top: 30px;
+    margin-left: 45px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.menu__atalhos {
+    display: flex;
+    color: #65727a;
+    gap: 15px;
+    align-items:center;
+    margin-right: 45px;
+    cursor: pointer;
+    
+
+}
+
+.menu__atalhos__links{
+    display: flex;
+    text-decoration: none;
+    color: #65727a;
+    justify-content: center;
+  
+}
+
+.menu__atalhos__links:hover {
+    background-color: #070b0e;
+    color: #fcf9f9;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 80px;
+ 
+      
+}
+
+/* PRINCIPAL */
+
+main {
+    background-color: #bec3bc;
+    color: #65727a;
+    height: 435px;
+    
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    width: 90;
+    gap: 30px;
+}
+
+.portifolio{
+    text-align: center;
+    font-size: 50px;
+}
+
+.apresentacao__titulo{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+.apresentacao__subtitulo{
+    
+    padding-top: 20px;
+    text-align: center;
+   
+    
+}
+
+.foto__perfil{
+    width: 120px;
+    height: 160px;
+  
+    
+}
+
+.titulo__sobre__mim{
+    text-align:start;
+    padding-top: 5%;
+    margin: 0px 45px;
+    
+}
+
+.resumo{
+    gap: 30px;
+    margin: 0px 45px;
+    text-align:justify;
+    font-size: 20px;
+}
+/* SKILLS */
+.titulo_skills{
+    text-align: center;
+}
+
+.linguagens{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-align:center;
+}
+
+.apresentacao__skills{
+   
+    text-align:center;
+    
+}
+
+/* HOBBIES */
+
+.titulo__hobbies{
+    text-align: center;
+    
+}
+
+
+.subtitulo__hobbies{
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+.descrition__hobbies{
+    text-align: justify;
+    margin: 30px 45px 0px 45px;
+    
+   
+}
+
+.section_fotos{
+    display: flex;
+    justify-content: center;
+    
+      
+}
+
+.link__foto{
+    text-align:start ;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: #65727a;
+}
+
+.inicio__foto{
+    height: 200px;
+    width: auto;
+    
+}
+
+
+
+
+
+/* FORMAÇÃO */
+
+.formacao{
+    text-align: center;
+}
+.escola{
+    margin-top: 6%;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    
+}
+
+.escola_logo:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}    
+
+.escola_logo{
+    text-align: center;
+    text-decoration: none;
+    color: #65727a;
+}
+
+
+/* PROJETOS */
+
+
+.projetos__container{
+    
+    height: 700px;
+    padding-top: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    
+ 
+    
+}
+.titulo_projetos{
+    text-align: center;
+    
+}
+
+
+.apresentacao__projetos{
+    text-decoration: none;
+    text-align:center;
+    color: #65727a;
+    
+}
+
+
+
+/* RODAPÉ */
+
+footer{
+    color: #65727a;
+    height: 20PX;
+    width: 100%;
+}
+
+.capa__projeto{
+    
+    height: 300px;
+
+}
+
+.links__rodape{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    align-items: flex-start;
+    
+}
+
+.links__rodape__projetos{
+    
+    padding-top: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    align-items: flex-start;
+}
+
+.links__links:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+.developer{
+    padding: 10px;
+    text-align: center;
 }
