@@ -242,6 +242,53 @@ main {
     
 }
 
+/* CONTATO */
+
+.form_container{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.titulo__formulario{
+    text-align: center;
+}
+
+.mensagem__container{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
 
 
 /* RODAPÉ */
@@ -274,6 +321,16 @@ footer{
     justify-content: center;
     gap: 45px;
     align-items: flex-start;
+}
+
+.links__rodape__contato{
+
+    padding-top: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    align-items: flex-start;
+
 }
 
 .links__links:hover {
