@@ -15,6 +15,10 @@ body{
   
 }
 
+main {
+    position: relative;
+  }
+
 
 header{
     height: 100px;
@@ -297,6 +301,7 @@ footer{
     color: #65727a;
     height: 20PX;
     width: 100%;
+    position:absolute;
 }
 
 .capa__projeto{
@@ -341,3 +346,48 @@ footer{
     padding: 10px;
     text-align: center;
 }
+
+@media(max-width: 834px) {
+
+.logotipo{
+    display: none;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+.menu__atalhos{
+    margin: 15px;
+    padding-top: 15px;
+}
+.apresentacao{
+    display: flex;
+    flex-direction:column-reverse;
+}
+.textos{
+    order: 2;
+}
+.foto{
+    order: 1;
+    align-self: center;
+    height: 140px;
+    width: auto;
+    margin-bottom: 30px;
+}
+main {
+    position: relative;
+  }
+
+  footer {
+    padding-top: 450px;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 100x;
+  }
+
+}
+ 
+
+
+    
