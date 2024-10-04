@@ -385,7 +385,7 @@ main {
     margin-bottom: 10px;
   }
 
-  .links__rodape__projetos {
+  .footer__projetos{
     padding-top: 310px;
     position: relative;
     margin-bottom: 10px;
@@ -521,6 +521,9 @@ main {
     }
 
     .footer__projetos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         padding-top: 10px;
         position: absolute;
         margin-bottom: 10px;
