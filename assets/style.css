@@ -504,7 +504,39 @@ main {
         padding-top: 30px;
         height: 300px;
     }
-    
-    
+
+
+    /* SKILLS */
+    .linguagens{
+        display: flex;
+        flex-direction: column;
+        gap: 30PX;
+        
+    }
+
+    /* PROJETOS */
+    .capa__projeto{
+        width: 100%;
+        height: auto;
+    }
+
+    .links__rodape__projetos {
+        padding-top: 10px;
+        position: absolute;
+        margin-bottom: 10px;
      
     }
+    /* HOBBIES */
+
+    .main__hobbie{
+        height: 900px;
+    }
+
+    .inicio__foto{
+        width: 100%;
+        height: auto;
+    }
+
+  
+
+}
