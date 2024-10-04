@@ -386,8 +386,14 @@ main {
     margin-bottom: 100x;
   }
 
+  .menu__atalhos, .resumo, .titulo__sobre__mim  {
+    margin: 0px;
+    
+    
+
 }
  
 
 
     
+}
