@@ -515,6 +515,9 @@ main {
     }
 
     /* PROJETOS */
+    .main__projetos{
+        height: 1000px;
+    }
     .capa__projeto{
         width: 100%;
         height: auto;
@@ -532,7 +535,7 @@ main {
     }
     /* HOBBIES */
 
-    .main__hobbie{
+    .main__hobbie, {
         height: 900px;
     }
 
