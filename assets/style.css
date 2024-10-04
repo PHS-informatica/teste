@@ -439,6 +439,13 @@ main {
     .apresentacao{
         display: flex;
         flex-direction:column-reverse;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .apresentacao__subtitulo{
+        margin-left: 4px;
+        margin-right: 4px;
     }
     .textos{
         order: 2;
@@ -452,13 +459,14 @@ main {
     }
     main {
         position: relative;
+        height: 900px;
       }
     
       footer {
-        padding-top: 450px;
+        padding-top: 10px;
         position: absolute;
         width: 100%;
-        margin-bottom: 10px;
+        
       }
     
       .links__rodape__projetos {
