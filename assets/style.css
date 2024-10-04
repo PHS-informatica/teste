@@ -520,10 +520,11 @@ main {
         height: auto;
     }
 
-    .links__rodape__projetos {
+    .footer__projetos {
         padding-top: 10px;
         position: absolute;
         margin-bottom: 10px;
+
      
     }
     /* HOBBIES */
