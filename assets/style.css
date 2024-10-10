@@ -533,9 +533,10 @@ main {
 
      
     }
+    
     /* HOBBIES */
 
-    .main__hobbie, {
+    .main__hobbie {
         height: 900px;
     }
 
